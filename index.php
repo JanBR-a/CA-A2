@@ -7,4 +7,4 @@ define('CONTROLLERS', __DIR__ . '/src/controllers');
 
 $controller = router($routes);
 
-require CONTROLLERS.$controller.'.php';
+require CONTROLLERS. '/' .$controller. '.php';
